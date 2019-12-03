@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Built-By: msmes
+Build-Jdk: 12.0.2
+Class-Path: dependency-jars/spark-core-2.9.1.jar dependency-jars/jetty-s
+ erver-9.4.18.v20190429.jar dependency-jars/javax.servlet-api-3.1.0.jar 
+ dependency-jars/jetty-http-9.4.18.v20190429.jar dependency-jars/jetty-u
+ til-9.4.18.v20190429.jar dependency-jars/jetty-io-9.4.18.v20190429.jar 
+ dependency-jars/jetty-webapp-9.4.18.v20190429.jar dependency-jars/jetty
+ -xml-9.4.18.v20190429.jar dependency-jars/jetty-servlet-9.4.18.v2019042
+ 9.jar dependency-jars/jetty-security-9.4.18.v20190429.jar dependency-ja
+ rs/websocket-server-9.4.18.v20190429.jar dependency-jars/websocket-comm
+ on-9.4.18.v20190429.jar dependency-jars/websocket-client-9.4.18.v201904
+ 29.jar dependency-jars/jetty-client-9.4.18.v20190429.jar dependency-jar
+ s/websocket-servlet-9.4.18.v20190429.jar dependency-jars/websocket-api-
+ 9.4.18.v20190429.jar dependency-jars/slf4j-api-1.7.29.jar dependency-ja
+ rs/slf4j-simple-1.7.29.jar dependency-jars/json-20190722.jar
+Main-Class: com.revolut.interview.task.Application
+Created-By: Maven Integration for Eclipse
+
