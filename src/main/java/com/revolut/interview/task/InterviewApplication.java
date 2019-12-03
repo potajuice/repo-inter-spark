@@ -15,7 +15,7 @@ public class InterviewApplication {
 		AccountDataService accountService = new AccountDataServiceImpl();
 
 		Spark.get("/account/:accountNum", new GetAccountRoute(accountService));
-    	Spark.post("/account/:from/to/:to/amount/:amount", new TransferFundsRoute(accountService));
-    	Spark.put("account/:accountNum/balance/:balance", new CreateAccountRoute(accountService));
+    		Spark.post("/account/:from/to/:to/amount/:amount", new TransferFundsRoute(accountService));
+    		Spark.put("account/:accountNum/balance/:balance", new CreateAccountRoute(accountService));
     }
 }
